@@ -1,5 +1,5 @@
 import  { useState } from 'react';
-//import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import s from './ContactForm.module.css';
 
 export default function SignupForm({onAddContact}) {
@@ -65,7 +65,7 @@ export default function SignupForm({onAddContact}) {
     )
 }
 
-// ContactForm.propTypes = {
-//     onAddContact: PropTypes.func.isRequired,
-// };
+SignupForm.propTypes = {
+    onAddContact: PropTypes.func.isRequired,
+};
 
